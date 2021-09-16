@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 2%;
+}
+
+#imgGalleryContainer {
+  text-align: center;
+}
+
+#newImageBtn {
+  width: 20%;
+  height: 35px;
+  margin-top: 2%;
+  object-position: center;
+  border: 1px solid grey;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+
+#newImageBtn:hover {
+  color: black;
+  background-color: orangered;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  margin: 2% auto;
+  width: 50%;
+}
